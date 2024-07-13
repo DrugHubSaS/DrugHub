@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  color: white;
+  justify-content: center;
+  background-color: #013255;
+}
+
+h1 {
+  height: 100px;
+  line-height: 30px;
+  text-align: center;
+  color: #71B003
+}
+
+h2 {
+  height: 50px;
+  line-height: 15px;
+  color: teal;
+}
+
+
+a {
+  color: white;
+  text-decoration: solid underline white 2px;
+}
+
+.myprimarybutton {
+  border-width: 0px;
+  border-style: solid;
+  border-color: #71B003;
+  border-radius: 6px;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #71b003;
+
+    -moz-transition:color .25s ease-in;
+    -o-transition:color .25s ease-in;
+    -webkit-transition:color .25s ease-in;
+}
+
+.myprimarybutton:hover {
+  border-color: #466E02;
+  background-color: #466E02;
+  color: black
+}
+
+footer {
+  
+}
+
+.myfooterstyle {
+  background-color: black; 
+  margin: 30px 0px 0px -20px !important;
+  padding: 20px; 
+  bottom: 0px; 
+  position: absolute; 
+  width: 100vw;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+   -moz-transition:color .25s ease-in;
+    -o-transition:color .25s ease-in;
+    -webkit-transition:color .25s ease-in;
+}
