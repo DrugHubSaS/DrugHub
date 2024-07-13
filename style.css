@@ -2,42 +2,55 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: #000000;
 }
 
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    padding: 10px;
+    border-bottom: solid 1px #4ae0bd;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 50%, rgba(74,224,189,1) 100%);
+}
+p {
+  text-align: center;
+  color: #4ae0bd;
+  margin: 10px 10px 10px 10px;
 }
 
-h1,
+h1{
+  color: #4ae0bd;
+  text-align: center;
+  font-size: 75px;
+}
 h2,
 h3,
 h4 {
     text-align: center;
 }
 
-a,
-button {
-    display: block;
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin: 10px 0;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    transition: all ease-in-out 0.2s;
+.myprimarybutton {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #4ae0bd;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 6px 12px 6px 12px;
+  color: #4ae0bd;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #000000;
+  transition: all ease-in-out 0.25s;
 }
 
-a:hover,
-button:hover {
-    background-color: #0056b3;
+.myprimarybutton:hover {
+  border-color: #000000;
+  background-color: #4ae0bd;
+  color: #000000;
+}
+
+.myprimarybutton:hover:visited {
+  color: #000000;
+}
+
+.myprimarybutton:visited {
+  color: #4ae0bd;
 }
